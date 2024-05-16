@@ -1,0 +1,17 @@
+ModCFG
+{
+    title = ModTemplate
+    author = YourName 
+    modVersion = 0.0.1
+    imgPath = preview.jpg
+    requiresGameVersion = 0.101.2
+    //template for Mods
+    Plugin
+    {
+
+        name = Modtemplate
+        description = ModTemplate for plugins
+        asmpath = Mods\ModTemplate\ModTemplate.dll
+        order = 1
+    }
+}
